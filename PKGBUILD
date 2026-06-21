@@ -10,8 +10,7 @@ pkgdesc='SonicDE applet written in QML for managing network connections'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-network-manager'
 license=(GPL-2.0-or-later)
-depends=(gcc-libs
-         glib2
+depends=(glib2
          glibc
          kcmutils
          kcolorscheme
@@ -26,16 +25,17 @@ depends=(gcc-libs
          kquickcharts
          kservice
          ksvg
-         kwallet
          kwidgetsaddons
          libnm
+         libstdc++
          modemmanager-qt
          networkmanager-qt
+         openssl
          prison
-         qca-qt6
          qcoro
          qt6-base
          qt6-declarative
+         qtkeychain-qt6
          solid
          sonic-frameworks-core-addons
          sonic-frameworks-io
