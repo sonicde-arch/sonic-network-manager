@@ -1,7 +1,7 @@
 pkgbase = sonic-network-manager
 	pkgdesc = SonicDE applet written in QML for managing network connections
-	pkgver = 6.7.0
-	pkgrel = 2
+	pkgver = 6.7.1
+	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-network-manager
 	arch = x86_64
 	groups = sonicde
@@ -48,6 +48,6 @@ pkgbase = sonic-network-manager
 	provides = plasma-nm
 	conflicts = plasma-nm
 	source = sonic-network-manager-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-network-manager/archive/refs/tags/6.7.0.tar.gz
-	sha256sums = 25ae04c4faa7f4f1a31bfa3ee0e7ce2312407352a74beab8488561dd72760ef7
+	sha256sums = 3d96a6fb90b03e9956a346b35a85a26640923c8bba031c8f3c454eeb69518f7b
 
 pkgname = sonic-network-manager
